@@ -29,10 +29,9 @@ touch .env
 
 5. Add the following environment variables to the .env file
 ```bash
-MONGODB_URI=your_mongodb_atlas_connection_string
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<mydatabase>?retryWrites=true&w=majority
 ```
-- MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/mydatabase?retryWrites=true&w=majority
-- Replace <username>, <password>, and mydatabase with your actual MongoDB Atlas credentials and database name.
+- Replace username, password, and mydatabase with your actual MongoDB Atlas credentials and database name.
 
 6. Start the backend server
 ```bash
